@@ -238,4 +238,5 @@ Toàn bộ mã nguồn, dữ liệu thực nghiệm và tài liệu báo cáo đ
 7. `cutoff_vs_time.png`, `cutoff_with_errorbar.png`, `speedup_comparison.png`: Các hình ảnh biểu đồ học thuật.
 8. `Bao_Cao_Thi_Nghiem.md`: Báo cáo khoa học định dạng Markdown chuẩn.
 9. `Bao_Cao_Thi_Nghiem_CUTOFF_Mergesort.docx`: Báo cáo khoa học định dạng Microsoft Word hoàn chỉnh.
-10. Thư mục `datasets/`: Chứa các tệp dữ liệu mẫu `random_10k.txt`, `partially_sorted_10k.txt`, `reverse_10k.txt`.
+10. `Log_chat_AI.pdf`: Bản ghi log thảo luận và thiết kế thực nghiệm cùng AI.
+11. Thư mục `datasets/`: Chứa các tệp dữ liệu mẫu `random_10k.txt`, `partially_sorted_10k.txt`, `reverse_10k.txt`.

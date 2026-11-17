@@ -217,6 +217,28 @@ def create_report_docx():
         "ngưỡng CUTOFF có thể chọn linh hoạt trong dải từ 8 đến 14 để đạt được hiệu năng tối đa."
     )
 
+    # 6. Danh mục tệp bàn giao
+    doc.add_heading("6. Danh mục tệp bàn giao của Project", level=1)
+    p_deliv = doc.add_paragraph()
+    p_deliv.add_run("Toàn bộ mã nguồn, dữ liệu thực nghiệm và tài liệu báo cáo được lưu trữ đồng bộ trong thư mục project:\n")
+    deliverables = [
+        "1. Merge.java: Mã nguồn thuật toán chuẩn nguyên bản 100%.",
+        "2. DatasetGenerator.java: Chương trình sinh các tập dữ liệu mẫu.",
+        "3. CutoffExperiment.java: Chương trình đo lường thực nghiệm khoa học tự động.",
+        "4. plot_charts.py: Script tạo 3 đồ thị trực quan độ phân giải cao.",
+        "5. export_docx.py: Script xuất báo cáo học thuật định dạng Microsoft Word.",
+        "6. experiment_results.csv: File dữ liệu thô toàn bộ kết quả đo lường thực tế.",
+        "7. cutoff_vs_time.png, cutoff_with_errorbar.png, speedup_comparison.png: Các hình ảnh biểu đồ học thuật.",
+        "8. Bao_Cao_Thi_Nghiem.md: Báo cáo khoa học định dạng Markdown chuẩn.",
+        "9. Bao_Cao_Thi_Nghiem_CUTOFF_Mergesort.docx: Báo cáo khoa học định dạng Microsoft Word hoàn chỉnh.",
+        "10. Log_chat_AI.pdf: Bản ghi log thảo luận và thiết kế thực nghiệm cùng AI.",
+        "11. Thư mục datasets/: Chứa các tệp dữ liệu mẫu random_10k.txt, partially_sorted_10k.txt, reverse_10k.txt."
+    ]
+    for item in deliverables:
+        p_item = doc.add_paragraph()
+        p_item.paragraph_format.left_indent = Inches(0.25)
+        p_item.add_run(item)
+
     out_file = "Bao_Cao_Thi_Nghiem_CUTOFF_Mergesort.docx"
     doc.save(out_file)
     print(f"Report exported to {out_file} successfully.")

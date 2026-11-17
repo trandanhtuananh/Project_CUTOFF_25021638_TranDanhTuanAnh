@@ -11,7 +11,7 @@
 > **Mã số sinh viên (MSSV):** 25021638  
 > **Môn học:** Cấu trúc Dữ liệu và Giải thuật (Algorithms & Data Structures)  
 > **Chủ đề lý thuyết:** Phân tích thuật toán thực nghiệm (*Sedgewick & Wayne 1.3: Algorithm Analysis*)  
-> **Tài liệu nộp đính kèm:** [Bao_Cao_Thi_Nghiem_CUTOFF_Mergesort.docx](./Bao_Cao_Thi_Nghiem_CUTOFF_Mergesort.docx)
+> **Tài liệu nộp đính kèm:** [Bao_Cao_Thi_Nghiem_CUTOFF_Mergesort.docx](./Bao_Cao_Thi_Nghiem_CUTOFF_Mergesort.docx) | [Log_chat_AI.pdf](./Log_chat_AI.pdf)
 
 ---
 
@@ -252,6 +252,7 @@ python export_docx.py
 ├── export_docx.py                            # Script xuất báo cáo Microsoft Word
 ├── Bao_Cao_Thi_Nghiem.md                     # Báo cáo học thuật chi tiết (Markdown)
 ├── Bao_Cao_Thi_Nghiem_CUTOFF_Mergesort.docx # Báo cáo học thuật định dạng Microsoft Word
+├── Log_chat_AI.pdf                           # Bản ghi log thảo luận và thiết kế thực nghiệm cùng AI
 ├── README.md                                 # Trang chủ báo cáo hiển thị trực tiếp trên GitHub
 └── datasets/                                 # Dữ liệu thử nghiệm mẫu (random_10k, partially_sorted_10k, reverse_10k)
 ```
